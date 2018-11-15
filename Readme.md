@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MainWindow.xaml](./CS/fGrid11/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/fGrid11/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/fGrid11/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/fGrid11/MainWindow.xaml))
+<!-- default file list end -->
 # How to define a custom CellStyle and CellTemplate in code behind 
 
 
