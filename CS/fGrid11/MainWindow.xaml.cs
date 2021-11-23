@@ -26,8 +26,6 @@ namespace fGrid11 {
 
         private void AddStyleButton_Click_1(object sender, RoutedEventArgs e) {
             Style style = new Style();
-            Style baseStyle = FindResource(new GridRowThemeKeyExtension() { ResourceKey = GridRowThemeKeys.LightweightCellStyle, ThemeName = ThemeManager.ApplicationThemeName }) as Style;
-            style.BasedOn = baseStyle;
             style.TargetType = typeof(LightweightCellEditor);
             style.Setters.Add(new Setter(LightweightCellEditor.BackgroundProperty, new SolidColorBrush(Colors.LightGreen)));
             gridControl1.Columns["LastName"].CellStyle = style;
