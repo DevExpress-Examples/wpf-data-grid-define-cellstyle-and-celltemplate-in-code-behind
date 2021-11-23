@@ -27,13 +27,8 @@ Namespace fGrid11
 		End Sub
 
 		Private Sub AddStyleButton_Click_1(ByVal sender As Object, ByVal e As RoutedEventArgs)
-            Dim _style As New Style()
-            Dim baseStyle As Style = TryCast(FindResource(New GridRowThemeKeyExtension() With {
-                .ResourceKey = GridRowThemeKeys.LightweightCellStyle,
-                .ThemeName = ThemeManager.ApplicationThemeName
-            }), Style)
-            _style.BasedOn = baseStyle
-            _style.TargetType = GetType(LightweightCellEditor)
+			Dim _style As New Style()
+			_style.TargetType = GetType(LightweightCellEditor)
             _style.Setters.Add(New Setter(LightweightCellEditor.BackgroundProperty, New SolidColorBrush(Colors.LightGreen)))
             gridControl1.Columns("LastName").CellStyle = _style
         End Sub

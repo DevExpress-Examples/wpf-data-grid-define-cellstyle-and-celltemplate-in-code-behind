@@ -27,8 +27,7 @@
             <dxg:GridControl.Columns>
                 <dxg:GridColumn FieldName="LastName" >
                     <!--<dxg:GridColumn.CellStyle>
-                        <Style BasedOn="{StaticResource {dxgt:GridRowThemeKey ResourceKey=LightweightCellStyle}}"
-                               TargetType="{x:Type dxg:LightweightCellEditor}">
+                        <Style TargetType="{x:Type dxg:LightweightCellEditor}">
                             <Setter Property="Background" Value="LightGreen" />
                         </Style>
                     </dxg:GridColumn.CellStyle>
