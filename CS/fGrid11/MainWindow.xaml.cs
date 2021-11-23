@@ -49,10 +49,6 @@ namespace fGrid11 {
         private void AddStyleButton_Click_1(object sender, RoutedEventArgs e) {
             Style style = new Style();
 
-            //Style baseStyle = FindResource(new GridRowThemeKeyExtension() { ResourceKey = GridRowThemeKeys.CellStyle }) as Style;
-            Style baseStyle = FindResource(new GridRowThemeKeyExtension() { ResourceKey = GridRowThemeKeys.CellStyle, ThemeName = ThemeManager.ApplicationThemeName }) as Style;
-             
-            style.BasedOn = baseStyle;
             style.TargetType = typeof(CellContentPresenter);
             style.Setters.Add(new Setter(BackgroundProperty, new SolidColorBrush(Colors.Green)));
 

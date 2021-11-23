@@ -21,7 +21,7 @@
               
                 <dxg:GridColumn FieldName="LastName" >
                     <!--<dxg:GridColumn.CellStyle>
-                        <Style BasedOn="{StaticResource {dxgt:GridRowThemeKey ResourceKey=CellStyle}}" TargetType="{x:Type dxg:CellContentPresenter}">
+                        <Style TargetType="{x:Type dxg:CellContentPresenter}">
                             <Setter Property="Background" Value="Green"/>
                         </Style>
                     </dxg:GridColumn.CellStyle>-->
