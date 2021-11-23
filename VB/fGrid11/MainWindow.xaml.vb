@@ -59,10 +59,6 @@ Namespace fGrid11
 		Private Sub AddStyleButton_Click_1(ByVal sender As Object, ByVal e As RoutedEventArgs)
 			Dim style As New Style()
 
-			'Style baseStyle = FindResource(new GridRowThemeKeyExtension() { ResourceKey = GridRowThemeKeys.CellStyle }) as Style;
-			Dim baseStyle As Style = TryCast(FindResource(New GridRowThemeKeyExtension() With {.ResourceKey = GridRowThemeKeys.CellStyle, .ThemeName = ThemeManager.ApplicationThemeName}), Style)
-
-			style.BasedOn = baseStyle
 			style.TargetType = GetType(CellContentPresenter)
 			style.Setters.Add(New Setter(BackgroundProperty, New SolidColorBrush(Colors.Green)))
 
