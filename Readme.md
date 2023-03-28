@@ -36,7 +36,8 @@ gridControl1.Columns["LastName"].CellStyle = style;
 ```cs
 string myCellTemplate = "<DataTemplate xmlns=\"http://schemas.microsoft.com/winfx/2006/xaml/presentation\" " +
     "xmlns:dxe=\"http://schemas.devexpress.com/winfx/2008/xaml/editors\">" +
-    "<dxe:TextEdit Name=\"PART_Editor\" HorizontalContentAlignment=\"Center\" FontSize=\"{Binding RowData.Row.NameFontSize}\"/></DataTemplate>";
+    "<dxe:TextEdit Name=\"PART_Editor\" HorizontalContentAlignment=\"Center\" " + 
+    "FontSize=\"{Binding RowData.Row.NameFontSize}\"/></DataTemplate>";
 DataTemplate dataTemplate = XamlReader.Load(GetStreamFromString(template)) as DataTemplate;
 gridControl1.Columns["LastName"].CellTemplate = nameCellDataTemplate;
 ```
