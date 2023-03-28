@@ -38,8 +38,8 @@ string myCellTemplate = "<DataTemplate xmlns=\"http://schemas.microsoft.com/winf
     "xmlns:dxe=\"http://schemas.devexpress.com/winfx/2008/xaml/editors\">" +
     "<dxe:TextEdit Name=\"PART_Editor\" HorizontalContentAlignment=\"Center\" " + 
     "FontSize=\"{Binding RowData.Row.NameFontSize}\"/></DataTemplate>";
-DataTemplate dataTemplate = XamlReader.Load(GetStreamFromString(template)) as DataTemplate;
-gridControl1.Columns["LastName"].CellTemplate = nameCellDataTemplate;
+DataTemplate dataTemplate = XamlReader.Load(GetStreamFromString(myCellTemplate)) as DataTemplate;
+gridControl1.Columns["LastName"].CellTemplate = dataTemplate;
 ```
 
 ## Files to Review
