@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.ObjectModel;
-using System.Linq;
+﻿using System.Collections.ObjectModel;
 
-namespace fGrid11
-{
-    public class Person
-    {
+namespace fGrid11 {
+    public class Person {
         public Person(int i) {
             LastName = "LastName #" + i;
             Age = i * 10;

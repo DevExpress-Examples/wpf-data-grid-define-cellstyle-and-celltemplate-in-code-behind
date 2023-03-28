@@ -1,9 +1,5 @@
-﻿using DevExpress.Xpf.Core;
-using DevExpress.Xpf.Grid;
-using DevExpress.Xpf.Grid.Themes;
-using System;
+﻿using DevExpress.Xpf.Grid;
 using System.IO;
-using System.Linq;
 using System.Windows;
 using System.Windows.Markup;
 using System.Windows.Media;
