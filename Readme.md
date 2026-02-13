@@ -61,7 +61,7 @@ gridControl1.Columns["LastName"].CellTemplate = dataTemplate;
 * [Data Grid for WPF - Display Hyperlinks in Cells](https://github.com/DevExpress-Examples/wpf-data-grid-display-hyperlinks)
 * [WPF Data Grid - Apply Conditional Formatting](https://github.com/DevExpress-Examples/wpf-data-grid-apply-conditional-formatting)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-data-grid-define-cellstyle-and-celltemplate-in-code-behind&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-data-grid-define-cellstyle-and-celltemplate-in-code-behind&~~~was_helpful=no)
 
